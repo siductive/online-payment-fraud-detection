@@ -21,6 +21,7 @@ It includes data preprocessing, exploratory data analysis (EDA), model building 
 ---
 
 ## 📊 Dataset Description
+https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset
 
 The dataset consists of online payment transactions with the following features:
 - `step`: Time step in hours.
@@ -35,8 +36,8 @@ The dataset consists of online payment transactions with the following features:
 - `isFraud`: Target variable (1 = Fraudulent, 0 = Legitimate).
 
 > Note:  
-> - The original dataset was highly imbalanced (~600,000 legitimate vs 8,000 fraudulent transactions).  
-> - A balanced temporary dataset (8,000 legit and 8,000 fraud transactions) was created for training the Logistic Regression model.  
+> - The original dataset has 6362620 tarnsactions and was highly imbalanced (6354407 legitimate vs 8213 fraudulent transactions).  
+> - A balanced temporary dataset (8213 legit and 8213 fraud transactions) was created for training the Logistic Regression model.  
 > - Random Forest was trained on the original unbalanced dataset with a focus on improving real-world performance.
 
 ---
