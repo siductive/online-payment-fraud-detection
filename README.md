@@ -10,7 +10,7 @@ It includes data preprocessing, exploratory data analysis (EDA), model building 
 - **1. EDA.ipynb**  
   Performs exploratory data analysis to understand key patterns, trends, and relationships in the transaction data.
 
-- **2. Model_Building.ipynb**  
+- **2. Fraud_Detection.ipynb**  
   - Preprocesses the data, handles class imbalance, and builds a Logistic Regression model on the balanced dataset.
   - Applies a Random Forest model to the original unbalanced dataset to better handle the natural class distribution.
   - Analyzes model performance using metrics like Precision, Confusion Matrix, and AUC-ROC curve.
@@ -38,7 +38,6 @@ The dataset consists of online payment transactions with the following features:
 > Note:  
 > - The original dataset has 6362620 tarnsactions and was highly imbalanced (6354407 legitimate vs 8213 fraudulent transactions).  
 > - A balanced temporary dataset (8213 legit and 8213 fraud transactions) was created for training the Logistic Regression model.  
-> - Random Forest was trained on the original unbalanced dataset with a focus on improving real-world performance.
 
 ---
 
@@ -51,8 +50,7 @@ The dataset consists of online payment transactions with the following features:
 
 ## 📈 Key Highlights
 
-- **Achieved ~90% accuracy** on both training and testing datasets using Logistic Regression on balanced data.
-- **Random Forest model applied** on original unbalanced data for better real-world fraud detection.
+- **Achieved ~90% accuracy score** on both training and testing datasets using Logistic Regression on balanced data.
 - **Evaluation Metrics**:
   - Precision Score
   - Confusion Matrix
