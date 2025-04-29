@@ -46,11 +46,7 @@ The dataset consists of online payment transactions with the following features:
 ## 📈 Key Highlights
 
 - **Achieved ~90% accuracy score** on both training and testing datasets using Logistic Regression on balanced data.
-- **Evaluation Metrics**:
-  - Precision Score
-  - Confusion Matrix
-  - AUC-ROC Curve and Score
-- **Handled class imbalance** thoughtfully to design a reliable detection system.
+- **Handled class imbalance** by random under-sampling, thoughtfully to design a reliable detection system.
 
 ---
 ## 🔍 Exploratory Data Analysis (EDA) Insights
