@@ -1,7 +1,7 @@
 # 🛡️ Online Payment Fraud Detection - ML Project
 
 This repository contains an end-to-end project for detecting fraudulent online payment transactions using Machine Learning.  
-It includes data preprocessing, exploratory data analysis (EDA), model building with Logistic Regression, and a Tableau dashboard for interactive data visualization.
+It includes data preprocessing, exploratory data analysis (EDA), model building with Logistic Regression.
 
 ---
 
