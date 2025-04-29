@@ -12,7 +12,6 @@ It includes data preprocessing, exploratory data analysis (EDA), model building 
 
 - **2. Fraud_Detection.ipynb**  
   - Preprocesses the data, handles class imbalance, and builds a Logistic Regression model on the balanced dataset.
-  - Applies a Random Forest model to the original unbalanced dataset to better handle the natural class distribution.
   - Analyzes model performance using metrics like Precision, Confusion Matrix, and AUC-ROC curve.
 
 ---
