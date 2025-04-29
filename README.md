@@ -15,9 +15,6 @@ It includes data preprocessing, exploratory data analysis (EDA), model building 
   - Applies a Random Forest model to the original unbalanced dataset to better handle the natural class distribution.
   - Analyzes model performance using metrics like Precision, Confusion Matrix, and AUC-ROC curve.
 
-- **3. Fraud_Detection_Dashboard.twb**  
-  An interactive Tableau dashboard showcasing key metrics, transaction patterns, and fraud analysis.
-
 ---
 
 ## 📊 Dataset Description
@@ -44,7 +41,6 @@ The dataset consists of online payment transactions with the following features:
 ## ⚙️ Technologies Used
 
 - Python (Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn)
-- Tableau (for dashboarding and visualization)
 
 ---
 
@@ -56,7 +52,6 @@ The dataset consists of online payment transactions with the following features:
   - Confusion Matrix
   - AUC-ROC Curve and Score
 - **Handled class imbalance** thoughtfully to design a reliable detection system.
-- **Developed an interactive Tableau dashboard** to visualize fraud patterns, transaction types, amount distributions, and time-based trends.
 
 ---
 
