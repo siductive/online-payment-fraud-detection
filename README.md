@@ -58,15 +58,14 @@ The dataset consists of online payment transactions with the following features:
 - **Fraud Rate & Transaction Types**
   - Only 0.1% (8,213 out of 6.3M) transactions were fraudulent.
   - 100% of fraud cases occurred in just two transaction types: TRANSFER and CASH_OUT.
-
 - **Temporal Trends**
   - Fraud peaked on Day 16 and dipped lowest on Day 23 (over 31 days).
-
 - **Transaction Amounts**
   - Most fraudulent transactions fell within 100K–1.5M, suggesting targeted high-value fraud.
-
 - **Class Imbalance**
   - **Extreme skew:** 99.9% legitimate vs. 0.1% fraudulent transactions, necessitating random under-sampling for modeling.
+
+---
 
 ## 🚀 Getting Started
 
